@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { createMemoryHistory } from "history";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./pages/Home";
@@ -9,12 +8,10 @@ import NotFound from "./pages/NotFound";
 import Category from "./pages/Category";
 import Recipe from "./pages/Recipe";
 
-const history = createMemoryHistory()
-
 function App() {
   return (
     <>
-      <Router location={history.location} navigator={history}>
+      <Router basename="/react-spa-shop">
         <Header/>
           <main className="container content">
               <Routes>

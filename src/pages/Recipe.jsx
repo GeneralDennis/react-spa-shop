@@ -9,7 +9,6 @@ const Recipe = () => {
   const { id } = useParams();
 
   const navigate = useNavigate();
-  console.log(recipe);
 
   useEffect(()=>{
     getMealById(id).then(data => setRecipe(data.meals[0]))
