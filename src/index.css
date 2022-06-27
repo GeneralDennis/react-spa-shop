@@ -20,7 +20,7 @@ nav {
   padding: 1.5rem 0;
 }
 
-.goods {
+.catalog__list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
@@ -29,6 +29,13 @@ nav {
 .card {
   display: flex;
   flex-direction: column;
+}
+
+.category__btn {
+  position: fixed;
+  top: 5rem;
+  right: 3rem;
+  z-index: 5;
 }
 
 .card-image, .card-content, .card-action {
@@ -132,4 +139,28 @@ code {
     opacity: 1;
     transform: translateX(0rem);
   }
+}
+
+.card-ingredients {
+  max-width: 70%;
+  width: 100%;
+}
+
+.card-ingredients tr {
+  border: none;
+}
+
+.card-content__items {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: start;
+}
+.card-content__items p {
+  font-size: 14px;
+  color: #43A047;
+}
+
+.card-content__items p:not(:last-child) {
+  margin-right: 10px;
 }
