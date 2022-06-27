@@ -15,7 +15,7 @@ function App() {
         <Header/>
           <main className="container content">
               <Routes>
-                <Route path="/react-spa-shop" element={ <Home/> }/>
+                <Route path="/" exact element={ <Home/> }/>
                 <Route path="/about" element={ <About/> }/>
                 <Route path="/contacts" element={ <Contacts/> }/>
                 <Route path="/category/:name" element={ <Category/> }/>
