@@ -1,6 +1,6 @@
 {
   "name": "spa-shop",
-  "homepage": "{https://generaldennis.github.io/react-spa-shop}",
+  "homepage": "https://generaldennis.github.io/react-spa-shop/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
