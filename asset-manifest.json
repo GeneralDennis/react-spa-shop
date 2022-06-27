@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-spa-shop/static/css/main.71fcfb8c.css",
-    "main.js": "/react-spa-shop/static/js/main.b4f4b05b.js",
+    "main.js": "/react-spa-shop/static/js/main.aa387c2a.js",
     "index.html": "/react-spa-shop/index.html",
     "main.71fcfb8c.css.map": "/react-spa-shop/static/css/main.71fcfb8c.css.map",
-    "main.b4f4b05b.js.map": "/react-spa-shop/static/js/main.b4f4b05b.js.map"
+    "main.aa387c2a.js.map": "/react-spa-shop/static/js/main.aa387c2a.js.map"
   },
   "entrypoints": [
     "static/css/main.71fcfb8c.css",
-    "static/js/main.b4f4b05b.js"
+    "static/js/main.aa387c2a.js"
   ]
 }
