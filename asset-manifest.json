@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-spa-shop/static/css/main.71fcfb8c.css",
+    "main.js": "/react-spa-shop/static/js/main.571e8775.js",
+    "index.html": "/react-spa-shop/index.html",
+    "main.71fcfb8c.css.map": "/react-spa-shop/static/css/main.71fcfb8c.css.map",
+    "main.571e8775.js.map": "/react-spa-shop/static/js/main.571e8775.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71fcfb8c.css",
+    "static/js/main.571e8775.js"
+  ]
+}
